@@ -1,0 +1,10 @@
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+.top { 
+  list-style-type: circle;
+  border: 1px solid #000;
+  list-style-position: inside;
+}
