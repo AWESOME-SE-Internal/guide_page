@@ -2,16 +2,24 @@ main {
   max-width: 900px;
   margin: auto;
 }
+h1 {
+  font-size: 30px;
+  }
 
 table,th,td {
   border: 1px black solid;
   border-collapse: collapse;
   padding:10px 5px;
 }
+th {
+  text-align: center;
+  vertical-align: middle;
+}
 
 .section {
   writing-mode: vertical-rl;
   text-align: center;
+  vertical-align: middle;
 }
 
 .group {
@@ -19,7 +27,7 @@ table,th,td {
 }
 
 .name {
-  width: 500px;
+  width: 600px;
 }
 
 .info {
@@ -27,13 +35,18 @@ table,th,td {
 }
 
 .cat {
-  width: 100px;
+  width: 110px;
 }
 
 .name-text {
   border-bottom: none;
 }
 .name-left {
-  width: 20px;
+  width: 40px;
   border-top: none;
+}
+
+.info-text {
+  text-align: center;
+  vertical-align: middle;
 }
