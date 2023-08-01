@@ -1,0 +1,39 @@
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+table,th,td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  padding:10px 5px;
+}
+
+.section {
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.group {
+  width: 50px;
+}
+
+.name {
+  width: 500px;
+}
+
+.info {
+  width: 50px;
+}
+
+.cat {
+  width: 100px;
+}
+
+.name-text {
+  border-bottom: none;
+}
+.name-left {
+  width: 20px;
+  border-top: none;
+}
