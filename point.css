@@ -12,10 +12,12 @@ table,th,td {
   border: 1px black solid;
   border-collapse: collapse;
   padding:5px;
+  background: #f0e2e1;
 }
 
 .title {
   text-align: center;
+  background: #e3e7ea;
 }
 .primary {
   max-width: 85px;
