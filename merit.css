@@ -3,8 +3,34 @@ main {
   margin: auto;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  padding-top: 20px;
+}
+h3 {
+  padding: 20px;
+}
+
 .top { 
   list-style-type: circle;
-  border: 1px solid #000;
   list-style-position: inside;
+  border: solid 1px #000;
+  outline: solid 1px #000; 
+  outline-offset: 1px; 
+  margin: 2px;
+  padding: 10px;
+}
+
+.desc {
+  list-style: disc;
+  padding-left: 20px
+}
+
+.foot {
+  padding: 20px;
 }
