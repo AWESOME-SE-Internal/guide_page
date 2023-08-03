@@ -2,3 +2,16 @@ main {
   max-width: 900px;
   margin: auto;
 }
+table,th,td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  padding:5px;
+  background: #BFE9DB;
+}
+.title {
+  text-align: center;
+  background: #8CD790;
+}
+.desc {
+  width: 350px;
+}
