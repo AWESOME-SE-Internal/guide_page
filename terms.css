@@ -2,3 +2,31 @@ main {
   max-width: 900px;
   margin: auto;
 }
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+table,th,td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  padding:5px 8px;
+  background: #BFE9DB;
+  vertical-align: middle;
+}
+
+.title {
+  text-align: center;
+  background: #8CD790;
+}
+.section,.info {
+  text-align: center;
+}
+.desc {
+  width: 350px;
+}
+.note {
+  padding-top: 10px;
+  margin-left: 2rem;
+  text-indent: -2rem;
+}
