@@ -1,0 +1,18 @@
+main {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+}
+.text {
+  margin-left: 1rem;
+  text-indent: -1rem;
+}
