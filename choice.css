@@ -3,14 +3,51 @@ main {
   margin: auto;
 }
 h1 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  padding: 5px;
   text-align: center;
+  padding: 10px 20px;
+  background: #8CD790;
+}
+h2 {
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-weight: bold;
+  border: solid 3px #000;
+  border-radius: 10px;
+}
+h3 {
+  font-weight: bold;
+  text-indent: 3rem;
+  padding: 10px 0 5px;
+}
+.title {
+  font-weight: bold;
 }
 
 .wrap {
   display: flex;
+  align-items: center;
+}
+.wrap::before {
+  content: "";
+  border: 1px solid #004D40;
+  align-self: stretch;
+}
+.left {
+  order: -1;
+}
+.content {
+  background: #E6EE9C;
+  border: solid 1px #000;
+  border-radius: 30px;
+  margin: 0 20px;
+  padding: 20px;
+  line-height: 1.5; 
+}
+.box {
+  margin-left: 1rem;
+  text-indent: -1rem;
 }
 .text {
   margin-left: 1rem;
