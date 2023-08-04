@@ -2,6 +2,37 @@ main {
   max-width: 900px;
   margin: auto;
 }
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  margin-left: 1rem;
+  text-indent: -1rem;
+  font-size: 14px;
+}
+table,th,td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th {
+  text-align: center;
+  font-size: 15px;
+}
+td {
+  font-size: 14px;
+  line-height: 1.5;
+}
+th,td:first-child {
+  background: #BFE9DB;
+}
 span {
   text-decoration: underline;
   font-weight: bold;
@@ -9,10 +40,48 @@ span {
 
 .top {
   padding: 10px 20px;
-  margin: 20px 0;
+  margin: 5px 0;
   border: solid 1px #000;
+  line-height: 1.5;
 }
-.text {
-  margin-left: 1rem;
-  text-indent: -1rem;
+
+.space {
+  width: 12%;
+}
+.nursing {
+  width: 28%;
+}
+.housing {
+  width: 25%;
+}
+.reference {
+  width: 35%;
+}
+
+.box {
+	padding: 5px;
+	position: relative;
+}
+
+.box::before, .box::after {
+	content: '';
+	width: 15px;
+	height: 100%;
+	position: absolute;
+}
+
+.box::before {
+	border-left: solid 1px #000000;
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	top: 0;
+	left: 0;
+}
+
+.box::after {
+	border-right: solid 1px #000000;
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	top: 0;
+	right: 0;
 }
