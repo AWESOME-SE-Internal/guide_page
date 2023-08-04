@@ -27,7 +27,11 @@ p {
   line-height: 1.5;
   text-indent: 1em;
 }
-
+span,.info-list {
+  color: #004D40;
+  font-weight: bold;
+  font-size: 14px;
+}
 .top {
   border-radius: 20px;
   padding: 10px 20px;
@@ -36,9 +40,8 @@ p {
 .sub {
   text-align: right;
 }
-
 .content {
-  margin: 25px 20px;
+  margin: 25px 10px;
 }
 .wrap {
   border-radius: 5px;
@@ -53,4 +56,27 @@ p {
   font-weight: bold;
   color: #004D40;
   margin-top: 5px;
+}
+
+.info {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.info:first-child {
+  padding-top: 10px;
+  border-top: 1px solid #000;
+}
+.info-list {
+  flex-basis: 10%;
+}
+.detail {
+  display: flex;
+  flex-basis: 80%;
+}
+.detail-title {
+  font-weight: bold;
+}
+.detail-text {
+  flex-basis: 85%;
 }
