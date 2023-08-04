@@ -1,4 +1,51 @@
 main {
   max-width: 900px;
-  margin: auto;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #cedec9;
+}
+h3 {
+  font-weight: bold;
+}
+h3:first-letter {
+  font-size: 100%;
+  color: #8CD790;
+}
+p {
+  line-height: 1.5;
+}
+
+.top {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: #8CD790;
+}
+.sub {
+  text-align: right;
+}
+
+.content {
+  margin: 25px 20px;
+}
+.wrap {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background: #fef2c9;
+}
+.text {
+  margin: 0 10px;
 }
