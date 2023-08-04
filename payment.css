@@ -33,12 +33,13 @@ span,.info-list {
   font-size: 14px;
 }
 .top {
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px 20px;
   background: #8CD790;
 }
 .sub {
   text-align: right;
+  font-weight: bold;
 }
 .content {
   margin: 25px 10px;
