@@ -2,3 +2,11 @@ main {
   max-width: 900px;
   margin: 20px auto;
 }
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.item {
+  font-weight: bold;
+}
