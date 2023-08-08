@@ -3,6 +3,18 @@ main {
   margin: 20px auto;
 }
 
+.section {
+  margin-top: 30px;
+}
+.content {
+  margin: 10px 0;
+}
+.box {
+  margin: 10px 0;
+}
+.wrap {
+  margin: 10px 0;
+}
 .title {
   font-size: 30px;
   font-weight: bold;
