@@ -1,0 +1,42 @@
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left: 10px;
+  border-left: 5px solid #538d56;
+}
+p {
+  text-indent: 1rem;
+  line-height: 20px;
+}
+a {
+  color: #3082f5;
+  text-decoration: underline;
+}
+
+.section {
+  border-top: 3px solid #538d56;
+  margin-top: 20px;
+}
+.box {
+  margin: 15px auto;
+  width: 98%;
+}
+.note {
+  margin-top: 20px;
+  text-align: right;
+}
