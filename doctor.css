@@ -2,3 +2,50 @@ main {
   max-width: 900px;
   margin: 20px auto;
 }
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline 5px solid #c357c3;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section {
+  margin-top: 50px;
+}
+.content {
+  margin-top: 30px;
+}
+.box {
+  margin-top: 20px;
+}
+.wrap {
+  margin-top: 30px;
+}
+.wrap__box {
+  margin-top: 20px;
+}
+.wrap__box-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.sidebar {
+  margin-top: 20px;
+}
+.title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.text {
+  margin-top: 20px;
+}
