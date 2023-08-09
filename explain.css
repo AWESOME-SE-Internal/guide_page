@@ -1,0 +1,22 @@
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+p {
+  line-height: 20px;
+}
+
+.box {
+  margin: 15px auto;
+  width: 98%;
+}
+
