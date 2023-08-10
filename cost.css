@@ -2,3 +2,83 @@ main {
   max-width: 900px;
   margin: 20px auto;
 }
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+h2::first-letter {
+  color: #8BBC00;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+p {
+  margin-top: 15px;
+}
+span {
+  font-weight: bold;
+}
+table,th,td {
+  border: 1px #000 solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table {
+  margin: 5px;
+}
+th {
+  background-color: #f3f3f3;
+  text-align: center;
+  vertical-align:middle;
+}
+td {
+  vertical-align:middle; 
+}
+.home td {
+  text-align: right;
+}
+.note {
+  writing-mode: vertical-rl;
+}
+.info {
+  width: 10%;
+}
+.wrap {
+  margin: 10px;
+}
+.wrap__text {
+  text-align: center;
+  vertical-align:middle;
+}
+.section {
+  border-bottom: 1px dashed #296640;
+  padding: 25px 0;
+}
+.content {
+  width: 95%;
+  margin: auto;
+}
+.group {
+  display: flex;
+}
+.group__box {
+  width: 70%;
+}
+.group__list {
+  width: 40%;
+}
+.group__list td {
+  text-align: right;
+}
+.group__head {
+  color: #4caf51;
+}
+.group__foot {
+  color: #e2725c;
+}
