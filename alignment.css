@@ -2,3 +2,8 @@ main {
   max-width: 900px;
   margin: 20px auto;
 }
+
+
+.section {
+  margin-top: 30px;
+}
