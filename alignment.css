@@ -2,8 +2,22 @@ main {
   max-width: 900px;
   margin: 20px auto;
 }
-
-
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #e91e63;
+  padding: 10px 30px;
+}
 .section {
   margin-top: 30px;
+}
+
+.top {
+  background-color: #fdeada;
+}
+.lead {
+  font-size: 10px;
+  text-align: right;
 }
