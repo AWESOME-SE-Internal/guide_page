@@ -1,0 +1,167 @@
+main {
+  max-width: 1100px;
+  margin: auto;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 100px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+
+.home-top {
+  width: 100%;
+  height: 520px;
+  background-color: #D9D9D9;
+}
+.home-content li {
+  width: 224px;
+  text-align: center;
+}
+.home-content ul {
+  display: flex;
+  justify-content: space-around;
+}
+.home-content .head {
+  background-color: #E59232;
+  color: #fff;
+  height: 100px;
+}
+.home-content .foot {
+  background-color: #F5F5F5;
+  color: #E59232;
+  height: 216px;
+  margin-top: 5px;
+}
+.home-content .head, .home-content .foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-img img {
+  width: 112px;
+  height: auto;
+}
+.home-img p {
+  padding: 20px;
+}
+li:nth-child(2) {
+  .head {
+    background-color: #E2725B;
+  }
+  .foot {
+    color: #E2725B;
+  }
+}
+li:nth-child(3) {
+  .head {
+    background-color: #8ED0FF;
+  }
+  .foot {
+    color: #8ED0FF;
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section:nth-child(3n) {
+  .wrap {
+  flex-direction:row-reverse
+  }
+}
+img {
+  max-width: 450Px;
+}
+.title {
+  color: #FF8900;
+  font-size: 22px;
+  font-weight: bold;
+}
+.title span {
+  font-size: 70px;
+}
+.text {
+  margin-top: 20px;
+}
+.img-box {
+  background-color: #FFDB58;
+  max-width: 245px;
+  height: 230px;
+  border-radius: 50%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-box img {
+  width: 203px;
+  height: 158px;
+}
+.wrap-label {
+  max-width: 322px;
+  min-height: 192px;
+  border: 3px #FFDB58 solid;
+  padding: 3px;
+  margin-top: 5px;
+}
+.wrap-label .title{
+  font-size: 16px;
+}
+
+.desc {
+  width: 608px;
+  height: 207px;
+  background-color: #fef0bb;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF8900;
+}
+.desc-text {
+  max-width: 559px;
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 20px 10px;
+}
+.botann-head {
+	text-align: center;
+	padding: 15px 40px;
+	font-weight: bold;
+	background: #FF8900;
+	color: #fff;
+  border-radius: 10px;
+  border: 2px solid #FF8900;
+}
+.botann-foot {
+  margin-top: 40px;
+  text-align: center;
+	padding: 15px 40px;
+	font-weight: bold;
+	color: #FF8900;
+  border-radius: 10px;
+  border: 2px solid #FF8900;
+}
+
+
+/* 02,03の変更点 */
+.introduction .title {
+  color: #E2725B;
+}
+.business .title {
+  color: #0594FB;
+}
