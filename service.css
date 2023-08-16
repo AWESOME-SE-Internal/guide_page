@@ -73,7 +73,7 @@ li:nth-child(3) {
 }
 .section:nth-child(3n) {
   .wrap {
-  flex-direction:row-reverse
+  flex-direction: row-reverse;
   }
 }
 img {
@@ -159,9 +159,37 @@ img {
 
 
 /* 02,03の変更点 */
-.introduction .title {
+.introduction {
+  .wrap:nth-child(2) {
+    flex-direction: row;
+  }
+  .title {
   color: #E2725B;
+  }
+  .img-box {
+    background-color: #E2725B;
+  }
+  .wrap-label {
+    border: 3px #E2725B solid;
+  }
+  .desc {
+    background-color: #fed4bb;
+  }
+  .desc-title {
+    color: #E2725B;
+  }
+  .botann-head {
+    background: #E2725B;
+    border: 2px solid #E2725B;
+  }
+  .botann-foot {
+  	color: #E2725B;
+    border: 2px solid #E2725B;
+  }
 }
-.business .title {
-  color: #0594FB;
+
+.business {
+  .title {
+    color: #0594FB;
+  }
 }
