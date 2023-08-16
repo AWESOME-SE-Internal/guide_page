@@ -69,13 +69,16 @@ li:nth-child(3) {
 .wrap {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
-.section:nth-child(2n) {
+.section:nth-child(3n) {
   .wrap {
   flex-direction:row-reverse
   }
 }
-
+img {
+  max-width: 450Px;
+}
 .title {
   color: #FF8900;
   font-size: 22px;
@@ -84,17 +87,81 @@ li:nth-child(3) {
 .title span {
   font-size: 70px;
 }
+.text {
+  margin-top: 20px;
+}
+.img-box {
+  background-color: #FFDB58;
+  max-width: 245px;
+  height: 230px;
+  border-radius: 50%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-box img {
+  width: 203px;
+  height: 158px;
+}
+.wrap-label {
+  max-width: 322px;
+  min-height: 192px;
+  border: 3px #FFDB58 solid;
+  padding: 3px;
+  margin-top: 5px;
+}
+.wrap-label .title{
+  font-size: 16px;
+}
+
+.desc {
+  width: 608px;
+  height: 207px;
+  background-color: #fef0bb;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF8900;
+}
+.desc-text {
+  max-width: 559px;
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 20px 10px;
+}
+.botann-head {
+	text-align: center;
+	padding: 15px 40px;
+	font-weight: bold;
+	background: #FF8900;
+	color: #fff;
+  border-radius: 10px;
+  border: 2px solid #FF8900;
+}
+.botann-foot {
+  margin-top: 40px;
+  text-align: center;
+	padding: 15px 40px;
+	font-weight: bold;
+	color: #FF8900;
+  border-radius: 10px;
+  border: 2px solid #FF8900;
+}
+
+
+/* 02,03の変更点 */
 .introduction .title {
   color: #E2725B;
 }
 .business .title {
   color: #0594FB;
 }
-
-.text {
-  margin-top: 20px;
-}
-img {
-  max-width: 450Px;
-}
-
