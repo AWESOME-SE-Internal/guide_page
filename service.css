@@ -1,18 +1,16 @@
-main {
-  max-width: 1100px;
-  margin: auto;
-}
 h2 {
   font-size: 40px;
   text-align: center;
   margin: 100px;
 }
-
 .section {
   padding: 100px 0;
 }
 
-
+.home {
+  max-width: 1000px;
+  margin: auto;
+}
 .home-top {
   width: 100%;
   height: 520px;
@@ -66,12 +64,17 @@ li:nth-child(3) {
   }
 }
 
+
+.content {
+  max-width: 1084px;
+  margin: 200px auto;
+}
 .wrap {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.section:nth-child(3n) {
+.content:nth-child(2n) {
   .wrap {
   flex-direction: row-reverse;
   }
@@ -212,4 +215,14 @@ img {
   	color: #0594FB;
     border: 2px solid #0594FB;
   }
+}
+
+.question {
+  max-width: 1363px;
+  margin: auto;
+}
+.question-box {
+  background-color: #fef0bb;
+  max-width: 1363px;
+  min-height: 600px;
 }
