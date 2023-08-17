@@ -107,7 +107,7 @@ img {
 }
 .wrap-label {
   max-width: 322px;
-  min-height: 192px;
+  min-height: 216px;
   border: 3px #FFDB58 solid;
   padding: 3px;
   margin-top: 5px;
@@ -190,6 +190,26 @@ img {
 
 .business {
   .title {
+    color: #65BEFF;
+  }
+  .img-box {
+    background-color: #65BEFF;
+  }
+  .wrap-label {
+    border: 3px #0594FB solid;
+  }
+  .desc {
+    background-color: #bbe8fe;
+  }
+  .desc-title {
     color: #0594FB;
+  }
+  .botann-head {
+    background: #0594FB;
+    border: 2px solid #0594FB;
+  }
+  .botann-foot {
+  	color: #0594FB;
+    border: 2px solid #0594FB;
   }
 }
