@@ -139,7 +139,6 @@ img {
   max-width: 608px;
   background-color: #fef0bb;
   border-radius: 20px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,8 +294,7 @@ img {
 .question p {
   padding-left:1em;
   text-indent:-1em;
-}   
-
+}
 .question-box {
   margin-top: 50px;
 }
