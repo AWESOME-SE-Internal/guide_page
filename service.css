@@ -17,7 +17,7 @@ h2 {
   margin: auto;
 }
 .home p {
-  margin: 10px;
+  margin: 7px;
 }
 .home-top {
   width: 100%;
@@ -26,6 +26,7 @@ h2 {
 }
 .home-content li {
   text-align: center;
+  width: 30%;
 }
 .home-content ul {
   display: flex;
@@ -53,7 +54,7 @@ h2 {
   height: auto;
 }
 .home-img p {
-  padding: 20px;
+  padding: 15px;
 }
 li:nth-child(2) {
   .head {
@@ -80,7 +81,6 @@ li:nth-child(3) {
 .wrap {
   padding-top: 10%;
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   align-items: stretch;
 }
@@ -119,9 +119,6 @@ img {
   width: 203px;
   height: 158px;
 }
-/* .wrap-box {
-  min-height: 460px;
-} */
 .wrap-label {
   max-width: 322px;
   height: 58%;
@@ -140,15 +137,14 @@ img {
 
 .desc {
   max-width: 608px;
-  height: 207px;
   background-color: #fef0bb;
-  /* margin-top: 30px; */
-
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .desc-title {
+  margin: 20px 10px 0;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -157,6 +153,7 @@ img {
 .desc-text {
   max-width: 559px;
   background-color: #fff;
+  border-radius: 20px;
   padding: 20px 30px;
   margin: 20px 10px;
 }
@@ -297,8 +294,7 @@ img {
 .question p {
   padding-left:1em;
   text-indent:-1em;
-}   
-
+}
 .question-box {
   margin-top: 50px;
 }
@@ -355,6 +351,21 @@ img {
 
   .title span {
     font-size: 50px;
+  }
+
+  .question {
+    .list {
+      padding: 25px;
+    }
+    .heading {
+      font-size: 30px;
+    }
+    .title {
+      font-size: 25px;
+    }
+    .item-title {
+      font-size: 18px;
+    }
   }
 }
 
