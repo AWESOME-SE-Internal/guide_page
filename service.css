@@ -54,7 +54,7 @@ h2 {
   height: auto;
 }
 .home-img p {
-  padding: 15px;
+  padding: 8px;
 }
 li:nth-child(2) {
   .head {
@@ -119,8 +119,10 @@ img {
   width: 203px;
   height: 158px;
 }
+.wrap-box {
+  width: 30%;
+}
 .wrap-label {
-  max-width: 322px;
   height: 58%;
   border: 3px #FFDB58 solid;
   padding: 10px;
@@ -136,12 +138,13 @@ img {
 }
 
 .desc {
-  max-width: 608px;
+  width: 60%;
   background-color: #fef0bb;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 .desc-title {
   margin: 20px 10px 0;
@@ -151,7 +154,6 @@ img {
   color: #FF8900;
 }
 .desc-text {
-  max-width: 559px;
   background-color: #fff;
   border-radius: 20px;
   padding: 20px 30px;
@@ -160,7 +162,8 @@ img {
 .botann {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 左右中央に配置 */
+  justify-content: center;
+  
 }
 .botann-head {
 	text-align: center;
@@ -321,8 +324,9 @@ img {
     margin: 20px;
     font-size: 30px;
   }
-  img {
-    max-width: 100%;
+  
+  .pc {
+    display: none !important;
   }
   .home-img img {
     height: auto;
@@ -339,14 +343,16 @@ img {
     margin: auto;
   }
   .wrap-box {
-    margin-top: 20px;
+    margin: 20px auto 0;
+    width: 100%;
   }
 
   .wrap-label {
     margin: 10px auto 0;
+    width: 100%;
   }
   .desc {
-    margin: auto;
+    width: 100%;
   }
   .botann {
     max-width: 300px;
