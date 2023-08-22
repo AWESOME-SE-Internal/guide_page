@@ -1,6 +1,7 @@
 main {
   max-width: 900px;
   margin: 20px auto;
+  padding: 20px;
 }
 h1 {
   font-size: 30px;
@@ -56,6 +57,13 @@ a {
 .primary {
   width: 70%;
 }
+.title::before {
+  width: 20px;
+    height: 5px;
+    margin-right: 10px;
+    background-color: #f0851e;
+    content: "";
+}
 .wrap {
   margin-top: 30px;
   padding: 0 40px 20px 40px;
@@ -86,7 +94,10 @@ a {
   width: 70%;
 }
 .icon {
-  width: 30%;
+  width: 20%;
+}
+.content-icon {
+  width: 40%;
 }
 .icon__item {
   width: 100%;
@@ -112,4 +123,34 @@ a {
   padding: 20px;
   background-color: #fff4f8;
   border-radius: 10px;
+}
+
+@media screen and (max-width:800px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .box {
+    display: block;
+  }
+  .primary {
+    width: 100%;
+  } 
+  .icon {
+    width: 90%;
+    margin: auto;
+  }
+  .content-icon {
+    width: 60%;
+    margin: auto;
+  }
+  .wrap__box {
+    width: 100%;
+  }
+  .box__item::first-letter {
+    font-size: 25px;
+  }
+  
 }
