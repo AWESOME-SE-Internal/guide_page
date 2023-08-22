@@ -1,6 +1,7 @@
 main {
   max-width: 900px;
   margin: 20px auto;
+  padding: 0 20px;
 }
 h1 {
   font-size: 25px;
@@ -16,7 +17,6 @@ h2::first-letter {
 }
 h3 {
   font-weight: bold;
-  margin-top: 15px;
 }
 p {
   margin-top: 15px;
@@ -38,14 +38,19 @@ th {
   vertical-align:middle;
 }
 td {
-  vertical-align:middle; 
+  vertical-align: middle; 
 }
 
+.box {
+  margin-top: 30px;  
+}
 .home td {
   text-align: right;
 }
 .note {
   writing-mode: vertical-rl;
+  text-align: center;
+
 }
 .info {
   width: 10%;
@@ -67,7 +72,13 @@ td {
 }
 .group {
   display: flex;
+  align-items: flex-end;
+} 
+.service .group {
+  flex-direction:row-reverse
 }
+
+
 .group__box {
   width: 70%;
 }
@@ -82,4 +93,25 @@ td {
 }
 .group__foot {
   color: #e2725c;
+}
+
+@media screen and (max-width:800px) {
+  table {
+    width: 100%;
+    word-break: break-all;
+    font-size: 85%;
+  }  
+  .group {
+    display: block;
+    align-items: flex-end;
+  }
+  .pic {
+    text-align: center;
+  }
+  .group__box {
+    width: 100%;
+  }
+  .group__list {
+    width: 100%;
+  }
 }
