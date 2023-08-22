@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
   padding: 10px 20px;
-  margin: 20px 0;
+  margin: 20px 10px;
   font-weight: bold;
   border: solid 3px #000;
   border-radius: 10px;
@@ -24,18 +24,18 @@ h3 {
 .title {
   font-weight: bold;
 }
-.wrap {
+/* .wrap {
   display: flex;
   align-items: center;
-}
-.wrap::before {
+} */
+/* .wrap::before {
   content: "";
   border: 1px solid #004D40;
   align-self: stretch;
-}
-.left {
+} */
+/* .left {
   order: -1;
-}
+} */
 .content {
   background: #E6EE9C;
   border: solid 1px #000;
