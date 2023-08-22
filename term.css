@@ -1,6 +1,7 @@
 main {
   max-width: 900px;
   margin: 20px auto;
+  padding: 20px;
 }
 h1 {
   font-size: 25px;
@@ -33,4 +34,20 @@ td,th {
 .box {
   width: 95%;
   margin: auto;
+}
+
+@media screen and (max-width:600px) {
+  .box {
+    width: 100%;
+  }
+ th,td {
+    display: block;
+    width: 100%;
+    border-bottom:none;
+  }
+  th {
+    text-align-last: left;
+  }
+
+
 }
