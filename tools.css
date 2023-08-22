@@ -47,6 +47,7 @@ img {
 
 .section {
   margin-top: 40px;
+  padding: 0 15px;
 }
 .wrap {
   margin: 30px auto 0;
@@ -60,11 +61,31 @@ img {
   justify-content: space-between
 }
 .box__list {
-  max-width: 45%;
+  width: 45%;
 }
 .item {
   margin-top: 20px;
-	text-indent:-1em;
+  padding-left:1em;
+	text-indent:-1em;}
+
+@media screen and (max-width:800px) {
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  .wrap {
+    padding: 0 15px 5px 15px;
+  }
+  .box {
+    display: block;
+  }
+  .box__list {
+    width: 100%;
+  }
 }
-
-
