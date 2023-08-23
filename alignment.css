@@ -13,9 +13,13 @@ main {
 p {
   padding-left:1em;
   text-indent:-1em;
+  margin-top: 5px;
 }
 .section {
   margin-top: 30px;
+}
+.content {
+  margin: 0 20px;
 }
 .lead, .foot {
   font-size: 15px;
@@ -82,7 +86,7 @@ span {
   font-weight: bold;
 }
 .img__right {
-  max-width: 400px;
+  width: 400px;
 }
 
 .wrap__group {
@@ -103,9 +107,6 @@ span {
   position: relative;
   bottom: 15px;
 }
-.wrap__item-img {
-  width: 100%;
-}
 .wrap__bottom {
   font-size: 13px;
   margin: 5px;
@@ -124,4 +125,32 @@ span {
 }
 .bottom p::first-letter {
   color: #e91e63;
+}
+
+@media screen and (max-width:800px) {
+  p {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .wrap {
+    display: block;
+  }
+  .wrap__group {
+    width: 100%;
+  }
+  .table {
+    font-size: 12px;
+  }
+  .img__box {
+    width: 90%;
+    margin: auto;
+  }
+  .img__right {
+    width: 100%;
+  }
+  .wrap__bottom-img {
+    width: 100%;
+  }
 }
