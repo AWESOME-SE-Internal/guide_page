@@ -9,11 +9,12 @@ h1 {
   padding: 20px 25px;
 }
 h2 {
-  margin-top: 10px;
+  font-weight: bold;
 }
 h3 {
   color: #fff;
   text-align: center;
+  padding: 3px;
 }
 p {
   line-height: 130%;
@@ -28,6 +29,9 @@ h3,.box {
 .top__list {
   background-color: #C8E6C9;
   padding: 15px 25px;
+}
+.section {
+  margin: 30px;
 }
 .content {
   display: flex;
@@ -65,3 +69,16 @@ h3,.box {
   background-color: #d5d3e7;
 }
 
+@media screen and (max-width:800px) {
+  h2 {
+    text-align: center;
+  }
+  .content {
+    display: block;
+  }
+
+  .item {
+    width: 90%;
+    margin: auto;
+  }
+}
