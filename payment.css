@@ -36,6 +36,7 @@ span,.info-list {
 .top {
   border-radius: 10px;
   padding: 10px 20px;
+  margin: 0 10px;
   background: #8CD790;
 }
 .sub {
@@ -43,7 +44,7 @@ span,.info-list {
   font-weight: bold;
 }
 .content {
-  margin: 25px 10px;
+  margin: 25px 20px;
 }
 .wrap {
   border-radius: 5px;
@@ -81,4 +82,16 @@ span,.info-list {
 }
 .detail-text {
   flex-basis: 85%;
+}
+
+@media screen and (max-width:800px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .detail, .info {
+    font-size: 14px;
+  }
 }
