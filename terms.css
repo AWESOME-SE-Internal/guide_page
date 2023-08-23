@@ -1,10 +1,16 @@
 main {
   max-width: 900px;
   margin: auto;
+  padding: 15px;
 }
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
   padding: 5px;
 }
 table,th,td {
@@ -28,4 +34,25 @@ table,th,td {
   padding-top: 10px;
   margin-left: 2rem;
   text-indent: -2rem;
+}
+
+@media screen and (max-width:800px) {
+  h2 {
+    font-size: 17px;
+  }
+  table,th {
+    font-size: 15px;
+    padding: 3px;
+  }
+  td {
+    font-size: 13px;
+    padding: 5px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .name,.info {
+    writing-mode: vertical-rl;
+
+  }
 }
