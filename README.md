@@ -8,7 +8,7 @@
 | 2   | 老人ホームを利用するメリット                       | 入居系     | merit      | https://awesome-se-internal.github.io/guide_page/merit     | 
 | 3   | 老人ホームを比較するポイント                       | 入居系     | choice     | https://awesome-se-internal.github.io/guide_page/choice    | 
 | 4   | 老人ホーム見学のポイント                           | 入居系     | point      | https://awesome-se-internal.github.io/guide_page/point     | 
-| 5   | 老人ホームの入居条件                               | 入居系     | terms      | https://awesome-se-internal.github.io/terms.html           | 
+| 5   | 老人ホームの入居条件                               | 入居系     | terms      | https://awesome-se-internal.github.io/guide_page/terms      | 
 | 6   | 認知症の方の老人ホームを選ぶポイント               | 入居系     |            |                                                            | 
 | 7   | 老人ホームの契約解除・クーリングオフのしくみ       | 入居系     | lift       | https://awesome-se-internal.github.io/guide_page/lift      | 
 | 8   | 入居金のしくみ                                     | 入居系     | payment    | https://awesome-se-internal.github.io/guide_page/payment   | 
